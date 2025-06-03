@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    width: 250px;
+    position: fixed;
+    max-height: 100vh;
+    background: #333;
+    color: white;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+.sidebar ul li a:hover {
+    background: #444;
+}
+
+.content {
+    margin-left: 270px;
+    padding: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.operation {
+    margin-bottom: 20px;
+}
+
+.operation form {
+    background: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.operation form h2 {
+    margin-top: 0;
+}
+
+.operation form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.operation form input[type="text"],
+.operation form input[type="email"],
+.operation form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.operation form input[type="file"] {
+    margin-bottom: 10px;
+}
+
+.operation form button {
+    padding: 10px 20px;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.operation form button:hover {
+    background: #555;
+}
+
+.dropdown {
+    background: #444;
+    padding-left: 10px;
+}
+
+.dropdown a {
+    color: #ccc;
+}
+
+.dropdown a:hover {
+    background: #555;
+}

@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.menu {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.menu button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+.menu button:hover {
+    background-color: #0056b3;
+}
+.dropdown {
+    display: none;
+    margin-bottom: 20px;
+}
+.dropdown button {
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+.dropdown button:hover {
+    background-color: #218838;
+}
+form {
+    display: none;
+    margin-bottom: 20px;
+}
+form h2 {
+    margin-top: 0;
+}
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+form input[type="text"],
+form input[type="file"],
+form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+form input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
