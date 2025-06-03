@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ 
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+  /* Add these to your global CSS */
+.html-ar {
+  direction: rtl;
+  text-align: right;
+}
+.goog-gt-original-text{
+  display:none;
+}
+
+.html-en {
+  direction: ltr;
+  text-align: left;
+}
+.goog-gt-tt{
+  display: none;
+}
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+
+
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f0b00d; /* Background of the scrollbar track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #f1ba2d; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounded corners for the scrollbar thumb */
+    border: 3px solid #f1f1f1; /* Padding around the scrollbar thumb */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #eba90f; /* Color of the scrollbar thumb when hovered */
+  }
+  
+  /* For Firefox */
+  html {
+    scrollbar-width: thin; /* Scrollbar width */
+    scrollbar-color: #797979 #f1f1f1; /* Scrollbar thumb and track color */
+  }
+  
+  /* For other browsers using shadow DOM */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #ffb701 #f1f1f1;
+  }
+ 
+  .nav-link {
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black; /* default text color */
+  }
+  
+  .nav-link:hover {
+    background-color: #FFEBCC; /* hover background color */
+  }
+  
+  .active {
+    color: #FF5733; /* active text color */
+    background-color: #FFEBCC; /* active background color */
+    font-weight: bold;
+  }
+  .nav-link {
+    position: relative;
+  }
+  .dropdown-menu {
+    
+
+    opacity: 0;
+    
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+  
+  .nav-link:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+  
+  .nav-link:hover .dropdown-menu a {
+    transition: color 0.3s ease;
+  }
+  
+  .dropdown-menu a:hover {
+    color: white;
+  }
+  .dropdown-menu {
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  .nav-link:hover .dropdown-menu {
+    transform: translateY(0);
+  }
+ 
+  .navbar {
+    z-index: 100;
+  }
+  
+  .swiper-container {
+    z-index: 1;
+  }
+      
